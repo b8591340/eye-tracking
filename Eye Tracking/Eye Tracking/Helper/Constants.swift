@@ -13,7 +13,7 @@ struct Constants {
 
 	struct Device {
 		static let screenSize = CGSize(width: 0.0623908297, height: 0.135096943231532)
-		static let frameSize = CGSize(width: 375, height: 812)
+        static let frameSize = UIScreen.main.bounds.size
 	}
 
 	struct Ranges {
